@@ -12,7 +12,7 @@ In this LWC’13 assignment the goal is to create a simple DSL, called QL, for
 describing questionnaires. Such questionnaires are characterized by conditional entry fields
 and (spreadsheet-like) dependency-directed computation
 
-An example questionnaire is the file sampleQuestionnaire in the root directory of the project.
+An example questionnaire is the file sampleQuestionnaire_2 in the root directory of the project.
 
 ****************
 QL Requirements
