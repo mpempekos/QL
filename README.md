@@ -12,19 +12,7 @@ In this LWC’13 assignment the goal is to create a simple DSL, called QL, for
 describing questionnaires. Such questionnaires are characterized by conditional entry fields
 and (spreadsheet-like) dependency-directed computation
 
-Example:
-
-form Box1HouseOwning {
-   hasSoldHouse: “Did you sell a house in 2010?” boolean
-   hasBoughtHouse: “Did you by a house in 2010?” boolean
-   hasMaintLoan: “Did you enter a loan for maintenance/reconstruction?”
-boolean
-   if (hasSoldHouse) {
-     sellingPrice: “Price the house was sold for:” money
-     privateDebt: “Private debts for the sold house:” money
-     valueResidue: “Value residue:” money(sellingPrice - privateDebt)
-   }
-}
+An example questionnaire is the file sampleQuestionnaire in the root directory of the project.
 
 ****************
 QL Requirements
