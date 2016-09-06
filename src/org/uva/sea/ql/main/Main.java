@@ -26,7 +26,7 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException {
 		
-		File file = new File("sampleQuestionnaire_2");
+		File file = new File("sampleQuestionnaire");
 	    FileInputStream fileInputStream = new FileInputStream(file);
 	    ANTLRInputStream inputStream = new ANTLRInputStream(fileInputStream);
 		QLLexer lexer = new QLLexer(inputStream);
