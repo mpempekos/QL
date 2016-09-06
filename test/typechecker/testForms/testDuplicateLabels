@@ -1,0 +1,11 @@
+form testDuplicateLabels {
+
+	testStr: "This is sth just to test my string field" str
+	
+	testStr2: "This is sth just to test my string field" str
+	
+	hasSoldHouse: "Did you sell a house?" boolean
+	
+	hasSoldHouse2: "Did you sell a house?" boolean
+		
+}

@@ -1,0 +1,19 @@
+form testUndefinedVariables {
+
+	testStr: "This is sth just to test my string field" str
+	
+	hasSoldHouse: "Did you sell a house?" boolean
+	
+	amountToPay: "You have to pay: " int ( 1000 + nonexisted)
+	
+	
+	if (true) {
+	
+	wantReceipt:  " Do you want a receipt" boolean (true || nothing)
+	
+	}
+	
+	
+	hasSoldHouse2: "Did you sell a house?" boolean
+		
+}

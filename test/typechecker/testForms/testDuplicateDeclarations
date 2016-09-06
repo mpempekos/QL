@@ -1,0 +1,17 @@
+form testDuplicateDeclarations {
+
+	testStr: "This is sth just to test my string field" str
+	
+	hasSoldHouse: "Did you sell a house?" boolean
+	hasBoughtHouse: "Did you buy a house?" boolean
+	
+	if (true) {
+	
+		hasSoldHouse: "Did you sell a house?" boolean
+		
+	}	
+	
+	hasBoughtHouse: "This is an error . . . " int
+	
+	
+}

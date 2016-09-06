@@ -1,0 +1,25 @@
+form testIdentifiersAndMultipleErrors {
+
+	hasSoldHouse: "Did you sell a house in 2010?"	boolean
+	
+	if (hasSoldHouse) {
+		sellIncome: "If (hasSoldHouse) this should be appeared..." int
+		
+		if (sellIncome || 5) {
+			wantReceipt : "Do u want a receipt?" boolean
+		}
+		
+		randomBool: "This as well..." boolean
+		
+		randomBool2: "This as well..." boolean (false || randomBool)
+		
+		if (randomBool) {
+			randomStr: "I want to see this string" str
+		}
+		
+		randomInt: "This is random" int (nonexisting - 5)
+		
+	
+	}
+	
+}

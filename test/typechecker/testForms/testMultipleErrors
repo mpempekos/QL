@@ -1,0 +1,35 @@
+form Box1HouseOwning {
+
+	hasSoldHouse: "Did you sell a house in 2010?"	boolean
+	
+	
+	if (hasSoldHouse) {
+		
+		sellIncome: "If (hasSoldHouse) this should be appeared..." int
+		
+		if (!sellIncome) {
+		
+			wantReceipt : "Do u want a receipt?" boolean
+		}
+		
+		randomBool: "This as well..." boolean
+		
+		randomBool: "wtf" int (5 - 3)
+		
+		dupLabel: "dupLabel" str
+		
+		dupLabel2: "dupLabel" str
+		
+	}
+	
+	annualIncome: "What is your annual income?"  int
+	
+	lastYearTaxes: "How much did u pay last year for taxes?" int
+	
+	taxAmount: "You have to pay: " int (annualIncome - lastYearTaxes || 2)
+			 
+	testStr: "This is sth just to test my string field" str
+	
+	hasSoldHouse: "This is related to the above" boolean
+		
+}

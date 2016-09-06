@@ -1,0 +1,15 @@
+form testInvalidOperators {
+
+	testStr: "This is sth just to test my string field" str
+	
+	hasSoldHouse: "Did you sell a house?" boolean (true + false)
+	
+	if (true) {
+		
+		wantReceipt : "Do u want a receipt?" boolean (true > 4)
+		
+	}
+	
+	testInt : "Bla bla bla"  int (5 && 4)
+			
+}

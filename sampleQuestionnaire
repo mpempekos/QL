@@ -1,0 +1,36 @@
+form Box1HouseOwning {
+
+
+	hasSoldHouse: "Did you sell a house in 2010?"	boolean
+	
+	if (hasSoldHouse) {
+	
+		sellIncome: "If (hasSoldHouse) this should be appeared..." int
+		
+		randomBool: "randomBool:This is a randomBool" boolean
+		
+		randomBool2: "randomBool2:This is the same woth randomBool...." boolean (false || randomBool)
+		
+		randomBool3: "This is randomBool2 || randomBool." boolean (randomBool2 || randomBool)
+		
+	}
+		
+	annualIncome: "What is your annual income?"  int	
+		
+	lastYearTaxes: "How much did u pay last year for taxes?" int
+	
+	taxAmount: "You have to pay: " int (annualIncome * lastYearTaxes)
+			 
+	testStr1: "This is testStr1" str
+	
+	testStr2: "This is testStr2" str
+	
+	testStr3: "This is testStr1+testStr2" str (testStr1 + testStr2)
+	
+	testStr11: "This is testint1" int
+	
+	testStr21: "This is testint2" int
+	
+	testStr31: "This is testint1+testint2" int (testStr11 + testStr21)
+	
+}

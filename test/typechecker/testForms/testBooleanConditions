@@ -1,0 +1,38 @@
+form testBooleanConditions {
+
+	testStr: "This is sth just to test my string field" str
+	
+	testInt: "This is sth just to test my int field" int
+	
+	hasSoldHouse: "Did you sell a house?" boolean
+	
+	if (5 > w) {
+		
+		if (hasSoldHouse > 5) {
+		
+			wantReceipt : "Do u want a receipt?" boolean
+		}
+		
+		if ("as" == testStr) {
+		
+			if (hasSoldHouse == true) {
+			
+			}
+			
+			if (hasSoldHouse != true) {
+			
+			}
+		
+		}
+		
+	}
+	
+	if (true) {
+	
+	}
+	
+	if (testInt != 4) {
+	
+	}
+			
+}
