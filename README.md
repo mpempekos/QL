@@ -1,5 +1,6 @@
 #A DSL for questionnaires, called QL. QL allows you to define simple forms with conditions and computed values.
 Antlr 4.0 grammar-based parser generator is used and the Java programming language.
+This project was part of the course 'Software Construction' during Msc of Software Engineering
 
 The assignment: Questionnaire Language (QL)
 
